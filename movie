@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hilltop Player</title>
+  <link rel="stylesheet" href="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.css" />
+  <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+</head>
+<body style="margin:0;padding:0;">
+
+<video id="myVideo" controls style="width:100%;height:auto;">
+  <source src="https://rr1---sn-qxovoapox-qxal.googlevideo.com/videoplayback?expire=1757783519&ei=flHFaPiCO_GG9fwPgNezyA4&ip=103.82.78.167&id=o-AJjxxQg9uYEBaDojnG3JcGUNB49mkgjmgFv6vJI7Kdzo&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1757761918%2C&mh=Hi&mm=31%2C29&mn=sn-qxovoapox-qxal%2Csn-qxaelnel&ms=au%2Crdu&mv=m&mvi=1&pl=24&rms=au%2Cau&initcwndbps=1915000&bui=ATw7iSV6ZEpx3-XMTp_n7KBulT1yWlIlzI5UBMY-X-TVbeY9x3uo_fgs4iv5r1V2HZ0KPYc50RholYtZ&spc=hcYD5XGq_hZe6RimJBLu_n04YH8myrbDk8_WxLRIrYN24seECJSQLPEASfmQ-0OJg-QIjg&vprv=1&svpuc=1&mime=video%2Fmp4&ns=OJV0Jzd1H1DDDDCYqZ6xHXMQ&rqh=1&cnr=14&ratebypass=yes&dur=1570.458&lmt=1756697142488574&mt=1757761533&fvip=4&fexp=51331020%2C51552689%2C51565115%2C51565681%2C51580968&c=MWEB&sefc=1&txp=5308224&n=CMoxTp2pmWpagQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRgIhANBsZbg4RlUQG8vW4jemzCgT2L4ie9pFrf05fpllVf92AiEAx30CVw-bPSvlGngpDSzCvAeMc2bKRgicKH03D8v0h4g%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgfwZn_JZwigc0QnvBmQhFZGys2_bvTZi15jCJaI7Yjt8CIC8ERclS4Z8iVnHwpIWoYyDM085LkryKc3pFzwTw9PvW&title=Adsterra%20Earning%20Trick%20%7C%20Adsterra%20High%20CPM%20Course%20%7C%20Adsterra%20Loading%20Method%20%7C" />
+</video>
+
+<script>
+  var player = fluidPlayer('myVideo', {
+    vastOptions: {
+      adList: [
+        {
+          roll: 'preRoll',
+          vastTag: 'https://slow-attitude.com/d/m.FszSdrGWNqv/ZXGDUv/oepmV9pu/ZDU/llk/PsToYF2yN/DgYC1iM/D/EKtoNFj/Ym0-NejcUBwyMQg-'
+        },
+        {
+          roll: 'midRoll',
+          timer: 15,
+          vastTag: 'https://slow-attitude.com/d/m.FszSdrGWNqv/ZXGDUv/oepmV9pu/ZDU/llk/PsToYF2yN/DgYC1iM/D/EKtoNFj/Ym0-NejcUBwyMQg-'
+        },
+        {
+          roll: 'postRoll',
+          vastTag: 'https://slow-attitude.com/d/m.FszSdrGWNqv/ZXGDUv/oepmV9pu/ZDU/llk/PsToYF2yN/DgYC1iM/D/EKtoNFj/Ym0-NejcUBwyMQg-'
+        }
+      ],
+      skipButtonCaption: "Skip Ad",
+      skipButtonClickCaption: "Skip >>"
+    }
+  });
+</script>
+
+</body>
+</html>
